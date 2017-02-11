@@ -77,6 +77,8 @@ make sure Xming (windows) or Xterm (mac) are turned on.
 
 And in firefox, go to localhost:4040, you can monitor the running spark application.
 
+For different groups, you could coordinate with each other to setup the spark port as 4040, 4041 or 4042 in spark-env.sh. I will leave this for your groups and figure it out.
+
 
 
 
