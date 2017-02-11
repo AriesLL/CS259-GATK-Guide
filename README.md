@@ -22,6 +22,18 @@ After download and unzip gatk folder, within gatk folder (please also read gatk 
 `./gradlew installAll`
 
 
+## Setup Spark
+`wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz`
+
+`tar –xvzf spark-2.1.0-bin-hadoop2.7.tgz`
+
+`cd spark-2.1.0-bin-hadoop2.7/conf`
+
+`cp spark-env.sh.template spark-env.sh`
+
+You need to configure spark environment (spark.local.dir) by changing spark-env.sh. (Please refer details on http://spark.apache.org/docs/latest/configuration.html)
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
