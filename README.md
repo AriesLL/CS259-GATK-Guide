@@ -9,7 +9,9 @@ Please change ${seasID} as your seasnet account in the following setup.
 The scripts are self-explanary, please make change on file and directory path as needed. 
 
 
-
+## Log on to lnxsrv02
+Log on to lnxsrv02.seas.ucla.edu 
+(We request this machine to run Spark applications for CS259 students)
 
 ## Setup JAVA 8 environment
 `export JAVA_HOME=/usr/local/cs133/2017cs259/jdk1.8.0_73`
@@ -55,7 +57,6 @@ copy GATK launch pipeline script,
 
 change the local_reads_pipeline.sh by specifying ${seasID} in the script.
 
-Log on to lnxsrv02.seas.ucla.edu (We request this machine to run Spark applications for CS259 students)
 
 launch local_reads_pipeline.sh using 8 cores
 
