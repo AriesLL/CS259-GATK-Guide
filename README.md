@@ -49,7 +49,7 @@ this will setup temporary files directory when running Spark applications. Now i
 
 *Make sure you already mkdir /w/tempcs259/${seasID}/SPARK_TMP*
 
-## Run GATK pipeline
+## Run GATK4 pipeline
 
 copy GATK launch pipeline script,
 
