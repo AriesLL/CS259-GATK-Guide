@@ -53,7 +53,7 @@ this will setup temporary files directory when running Spark applications. Now i
 
 copy GATK launch pipeline script,
 
-`cp /usr/local/cs133/2017cs259/local_reads_pipeline.sh /usr/local/cs133/${seasID}`
+`cp /usr/local/cs133/2017cs259/local_reads_pipeline.sh /w/tempcs259/${seasID}`
 
 change the local_reads_pipeline.sh by specifying ${seasID} in the script.
 
