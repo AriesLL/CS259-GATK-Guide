@@ -14,6 +14,15 @@ Please change ${seasID} as your seasnet account in the following setup.
 
 `export LD_LIBRARY_PATH=${JAVA_HOME}/jre/lib/amd64/server/:$LD_LIBRARY_PATH`
 
+## Setup GATK tool
+`git clone https://github.com/broadinstitute/gatk.git`
+
+After download and unzip gatk folder, within gatk folder (please also read gatk git README), use the following to build GATK
+
+`./gradlew installAll`
+
+
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
