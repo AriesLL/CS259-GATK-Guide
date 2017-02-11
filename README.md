@@ -35,44 +35,36 @@ You need to configure spark environment (spark.local.dir) by changing spark-env.
 
 add two lines in the spark-env.sh
 
-*export SPARK_LOCAL_DIRS=/w/tempcs259/yuze/SPARK_TMP/*
+*export SPARK_LOCAL_DIRS=/w/tempcs259/${seasID}/SPARK_TMP/*
 
-*export SPARK_WORKER_DIR=/w/tempcs259/yuze/SPARK_TMP/*
+*export SPARK_WORKER_DIR=/w/tempcs259/${seasID}/SPARK_TMP/*
 
 this will setup temporary files directory when running Spark applications. Now it is in the CS259 temporary directory. 
 
 *Make sure you already mkdir /w/tempcs259/${seasID}/SPARK_TMP*
 
+## Run GATK pipeline
+
+copy GATK launch pipeline script,
+
+`cp /usr/local/cs133/2017cs259/local_reads_pipeline.sh /usr/local/cs133/${seasID}`
+
+change the local_reads_pipeline.sh by specifying ${seasID} in the script.
+
+Log on to lnxsrv02.seas.ucla.edu (We request this machine to run Spark applications for CS259 students)
+
+launch local_reads_pipeline.sh using 8 cores
+
+`./local_reads_pipeline.sh 8`
+
+You could run with different core number by giving different number as input.
+
+And after successful running, you will get output bam file in /w/tempcs259/${seasID}.
 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AriesLL/gatkTutorial/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
