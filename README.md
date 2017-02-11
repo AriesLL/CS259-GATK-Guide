@@ -7,6 +7,11 @@ Please change ${seasID} as your seasnet account in the following setup.
 
 ###  
 
+## Setup JAVA 8 environment
+`export JAVA_HOME=/usr/local/cs133/2017cs259/jdk1.8.0_73`
+`export PATH=${JAVA_HOME}/bin:$PATH`
+`export LD_LIBRARY_PATH=${JAVA_HOME}/jre/lib/amd64/server/:$LD_LIBRARY_PATH`
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
