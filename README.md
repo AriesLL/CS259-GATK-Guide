@@ -1,4 +1,4 @@
-## This is Guide on Using GATK on Seasnet for CS259
+# This is Guide on Using GATK on Seasnet for CS259
 
 You need to work on your SEAS temporary folder, /w/tempcs259/${seasID}.
 
