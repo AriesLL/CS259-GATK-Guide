@@ -16,10 +16,10 @@ The scripts are self-explanary, and please make change on file and directory pat
 
 `export LD_LIBRARY_PATH=${JAVA_HOME}/jre/lib/amd64/server/:$LD_LIBRARY_PATH`
 
-## Setup GATK tool
+## Setup GATK4 tool
 `git clone https://github.com/broadinstitute/gatk.git`
 
-After download and unzip gatk folder, within gatk folder (please also read gatk git README), use the following to build GATK
+After download and unzip gatk folder, within gatk folder (please also read gatk git README), use the following to build GATK4.
 
 `./gradlew installAll`
 
