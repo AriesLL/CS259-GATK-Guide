@@ -1,6 +1,7 @@
 ## This is Guide on Using GATK on Seasnet for CS259
 
 You need to work on your SEAS temporary folder, /w/tempcs259/${seasID}.
+
 Please change ${seasID} as your seasnet account in the following setup.
 
 
@@ -35,3 +36,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
