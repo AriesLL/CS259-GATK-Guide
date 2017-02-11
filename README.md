@@ -9,7 +9,7 @@ Please change ${seasID} as your seasnet account in the following setup.
 The scripts are self-explanary, and please make change on file and directory path as needed. 
 
 
-###  
+
 
 ## Setup JAVA 8 environment
 `export JAVA_HOME=/usr/local/cs133/2017cs259/jdk1.8.0_73`
