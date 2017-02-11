@@ -1,6 +1,6 @@
 # This is Guide on Using GATK4 on Seasnet for CS259
 
-https://ariesll.github.io/CS259-GATK-Guide/
+[Link]https://ariesll.github.io/CS259-GATK-Guide/
 
 You need to work on your SEAS temporary folder, /w/tempcs259/${seasID}.
 
