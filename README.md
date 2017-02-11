@@ -1,10 +1,10 @@
-## Welcome to GitHub Pages
+## This is Guide on Using GATK on Seasnet for CS259
 
-You can use the [editor on GitHub](https://github.com/AriesLL/gatkTutorial/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+You need to work on your SEAS temporary folder, /w/tempcs259/${seasID}.
+Please change ${seasID} as your seasnet account in the following setup.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+###  
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
