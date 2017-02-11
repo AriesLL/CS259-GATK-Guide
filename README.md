@@ -1,8 +1,10 @@
-# This is Guide on Using GATK on Seasnet for CS259
+# This is Guide on Using GATK4 on Seasnet for CS259
 
 You need to work on your SEAS temporary folder, /w/tempcs259/${seasID}.
 
 Please change ${seasID} as your seasnet account in the following setup.
+
+The scripts are self-explanary, and please make change on file and directory path as needed. 
 
 
 ###  
