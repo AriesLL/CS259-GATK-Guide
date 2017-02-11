@@ -1,4 +1,4 @@
-# Guide on Using GATK4 on Seasnet for UCLA 2017 Winter CS259
+# Guide on GATK4 on Seasnet for UCLA 2017W CS259
 
 [https://ariesll.github.io/CS259-GATK-Guide/](https://ariesll.github.io/CS259-GATK-Guide/)
 
