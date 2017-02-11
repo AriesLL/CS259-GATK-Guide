@@ -41,7 +41,7 @@ add two lines in the spark-env.sh
 
 *export SPARK_WORKER_DIR=/w/tempcs259/${seasID}/SPARK_TMP/*
 
-this will setup temporary files directory when running Spark applications. Now it is in the CS259 temporary directory. 
+this will setup temporary files directory when running Spark applications. Now it is in your CS259 temporary directory. 
 
 *Make sure you already mkdir /w/tempcs259/${seasID}/SPARK_TMP*
 
