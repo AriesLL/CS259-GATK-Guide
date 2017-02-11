@@ -6,7 +6,7 @@ You need to work on your SEAS temporary folder, /w/tempcs259/${seasID}.
 
 Please change ${seasID} as your seasnet account in the following setup.
 
-The scripts are self-explanary, and please make change on file and directory path as needed. 
+The scripts are self-explanary, please make change on file and directory path as needed. 
 
 
 
