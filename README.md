@@ -66,6 +66,18 @@ You could run with different core number by giving different number as input.
 
 And after successful running, you will get output bam file in /w/tempcs259/${seasID}.
 
+## Monitor using Spark GUI
+
+Your could using ssh -XY lnxsrv02.seas.ucla.edu to enable X forwarding.
+Then launch firefox using
+
+`firefox&`
+
+make sure Xming (windows) or Xterm (mac) are turned on.
+
+And in firefox, go to localhost:4040, you can monitor the running spark application.
+
+
 
 
 
